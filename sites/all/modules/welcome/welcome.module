@@ -1,18 +1,18 @@
 <?php
-function welcome_user_menu() {
+function welcome_menu() {
     $items['welcome'] = array(
         'title' => 'Thanks for visiting',
-        'page callback' => 'welcome_user',
+        'page callback' => 'welcome',
         'access callback' => TRUE,
         'type' => MENU_CALLBACK,
     );
     return $items;
 }
 
-function bakery_user_user_login() {
+function welcome_user_login() {
     $_GET['destination'] = 'welcome';
 }
 
-function welcome_user() {
+function welcome() {
     return "<p>Welcome to Green Hills Community Center</p>";
 }
