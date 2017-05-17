@@ -1,0 +1,5 @@
+name = Welcome page
+description = Enables welcome page on login.
+package = My Modules
+core = 7.x
+files[] = welcome.module
