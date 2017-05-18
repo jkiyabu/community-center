@@ -14,5 +14,5 @@ function welcome_user_login() {
 }
 
 function welcome() {
-    return "<p>Welcome to Green Hills Community Center</p>";
+    return "<p>Welcome to Heartsook Community Center</p>";
 }
